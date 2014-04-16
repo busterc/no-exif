@@ -1,0 +1,36 @@
+{
+  "name": "no-exif",
+  "version": "1.0.0",
+  "description": "Remove Exif and GPS location data from JPEG images and create new files with the .noexif.jpg extension while preserving the original files and filenames.",
+  "main": "./lib/main.js",
+  "preferGlobal": "true",
+  "bin": {
+    "noexif": "./bin/noexif"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/busterc/no-exif.git"
+  },
+  "keywords": [
+    "exif",
+    "gps",
+    "jpeg",
+    "jpg",
+    "extract",
+    "strip",
+    "kill",
+    "erase",
+    "delete",
+    "remove",
+    "phantomjs",
+    "images",
+    "privacy",
+    "geolocation",
+    "location"
+  ],
+  "author": "busterc",
+  "license": "MIT",
+  "dependencies": {
+    "phantomjs": "~1.9.7-3"
+  }
+}
